@@ -14,7 +14,7 @@ const UglifyJS = require('uglify-js')
 exports.build = async () => {
   const sitemapUrls = []
 
-  const GTAG_API_SECRET = Buffer.from('YW81Z2RTeTlTNFM4YWJFSVRBWXdmUQ', 'base64url').toString()
+  const GTAG_API_SECRET = Buffer.from('', 'base64url').toString()
   const PUG_OPTIONS = {
     basedir: path.resolve(__dirname),
     baseurl: getBaseurl(),
